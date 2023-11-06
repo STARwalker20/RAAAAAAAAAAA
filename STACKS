@@ -1,0 +1,18 @@
+[#include<stack>
+#include<iostream>
+using namespace std;
+Bint main()
+stack <int> mystack;
+mystack. push(15);
+mystack. push(40);
+mystack.push(2);
+mystack. push(80);
+mystack. push(4);
+cout << "the stacks size is: " << mystack.size() << endl;
+cout << "its top is:" << mystack. top() << endl << endl;
+cout << "popping the stack elements:";
+while (!mystack. empty())
+cout << mystack.top() << " , ";
+mystack. pop();
+cout << endl << endl;
+cout << " the size is now:" << mystack. size() << endl;
